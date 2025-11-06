@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lagos-based freelance web designer @positivemotion0. Custom responsive sites, UI/UX, WordPress from ₦150k. Portfolio & hire now.">
+  <meta name="keywords" content="web designer Lagos, freelance UI UX Nigeria, WordPress developer, responsive websites, Figma design">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="@positivemotion0 - Lagos Web Designer">
+  <meta property="og:description" content="Building converting sites for Naija hustlers. Skills: HTML, JS, Figma. Hire me!">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200">
+  <meta property="og:url" content="https://your-portfolio.netlify.app">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="@positivemotion0 - Web Designer">
+  <meta name="twitter:description" content="Lagos freelance web dev. Stack sats on sites.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200">
+  <title>@positivemotion0 - Web Designer | Lagos Freelance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background: #fafafa; scroll-behavior: smooth; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    nav { position: fixed; top: 0; width: 100%; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 1rem 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    nav ul { display: flex; justify-content: center; list-style: none; gap: 2rem; }
+    nav a { color: #333; text-decoration: none; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #e91e63; }
+    header { padding: 6rem 0 2rem; text-align: center; }
+    h1 { font-size: 3rem; color: #1a1a1a; margin-bottom: 0.5rem; }
+    .subtitle { color: #666; font-size: 1.2rem; }
+    .section { padding: 4rem 0; opacity: 0; transform: translateY(20px); transition: 0.6s; }
+    .section.visible { opacity: 1; transform: translateY(0); }
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .skill { background: white; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    .projects { display: grid; gap: 2rem; margin-top: 2rem; }
+    .project { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); cursor: pointer; transition: 0.3s; }
+    .project:hover { transform: scale(1.02); }
+    .project h3 { color: #e91e63; margin-bottom: 1rem; }
+    .contact-form { max-width: 600px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    .form-group { margin-bottom: 1rem; }
+    input, textarea { width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; }
+    .btn { background: #e91e63; color: white; padding: 1rem 2rem; border: none; border-radius: 50px; font-weight: 600; cursor: pointer; display: block; margin: 1rem auto; }
+    .whatsapp-btn { background: #25D366; color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 50px; display: block; margin: 1rem auto; text-align: center; font-weight: 600; }
+    footer { background: #1a1a1a; color: white; text-align: center; padding: 2rem 0; }
+    @media (max-width: 768px) { nav ul { flex-direction: column; gap: 1rem; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div class="container">
+      <h1>@positivemotion0</h1>
+      <p class="subtitle">Lagos Web Designer | Building Sites That Convert</p>
+    </div>
+  </header>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem;">Skills</h2>
+      <div class="skills">
+        <div class="skill"><strong>HTML/CSS</strong><br>Responsive AF</div>
+        <div class="skill"><strong>JavaScript</strong><br>Interactive Magic</div>
+        <div class="skill"><strong>Figma</strong><br>UI/UX Beast</div>
+        <div class="skill"><strong>WordPress</strong><br>Client Cash</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section" style="background: #f0f0f0;">
+    <div class="container">
+      <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem;">Projects</h2>
+      <div class="projects">
+        <div class="project" onclick="alert('Full e-com demo—Paystack ready!')">
+          <h3>E-Com Mockup</h3>
+          <p>Full shop with cart. Built in 3 days.</p>
+        </div>
+        <div class="project" onclick="alert('SaaS landing—converting AF!')">
+          <h3>SaaS Landing</h3>
+          <p>Clean page for fake tool. Mobile-first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem;">Let's Build</h2>
+      <form class="contact-form" action="https://formspree.io/f/YOUR_ID" method="POST"> <!-- Free Formspree signup -->
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="5" placeholder="Project deets? ₦150k/site" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <a href="https://wa.me/2349130740789?text=Hey %40positivemotion0%2C%20saw your portfolio—let's build my site! Quote%3F" class="whatsapp-btn">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 @positivemotion0 | WhatsApp: <a href="https://wa.me/2349130740789" style="color: #e91e63; text-decoration: none;">+234 913 074 0789</a> | Lagos Hustle</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => { e.preventDefault(); document.querySelector(anchor.getAttribute('href')).scrollIntoView({ behavior: 'smooth' }); });
+    });
+    // Animate sections
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => entry.target.classList.toggle('visible', entry.isIntersecting)));
+    document.querySelectorAll('.section').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
